@@ -1,0 +1,58 @@
+type: spec.insomnia.rest/5.0
+schema_version: "5.1"
+name: api-col-with-test
+meta:
+  id: wrk_e4a36eb40e984c5b95fbcfb3f76e3195
+  created: 1789718467882
+  modified: 1789718467882
+  description: ""
+collection:
+  - url: https://httpbin.io/get
+    name: New Request
+    meta:
+      id: req_5daaeab0c63a41ecadac21dd731a8970
+      created: 1789718537979
+      modified: 1789718544424
+      isPrivate: false
+      description: ""
+      sortKey: -1789718537979
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_d92f41eda5a39ce73113c720e61fef08d965ee7c
+    created: 1789718467885
+    modified: 1789718467885
+environments:
+  name: Base Environment
+  meta:
+    id: env_d92f41eda5a39ce73113c720e61fef08d965ee7c
+    created: 1789718467884
+    modified: 1789718467884
+    isPrivate: false
+testSuites:
+  - name: New Suite
+    meta:
+      id: uts_b6f5f5e4660b4dd6bda539fb0b19d094
+      created: 1789718473712
+      modified: 1789718473712
+      sortKey: -1789718473712
+    tests:
+      - name: Returns 200
+        meta:
+          id: ut_27efc7f2f8df4e629f622fe63e045962
+          created: 1789718475468
+          modified: 1789718568349
+          sortKey: -1789718475468
+        requestId: req_5daaeab0c63a41ecadac21dd731a8970
+        code: |-
+          const response1 = await insomnia.send();
+          expect(response1.status).to.equal(200);
