@@ -7,12 +7,12 @@ meta:
   modified: 1789718467882
   description: ""
 collection:
-  - url: https://httpbin.io/get
+  - url: https://httpbin.io/get1
     name: New Request
     meta:
       id: req_5daaeab0c63a41ecadac21dd731a8970
       created: 1789718537979
-      modified: 1789718544424
+      modified: 1792055569933
       isPrivate: false
       description: ""
       sortKey: -1789718537979
@@ -38,6 +38,11 @@ environments:
     created: 1789718467884
     modified: 1789718467884
     isPrivate: false
+spec:
+  meta:
+    id: __API_SPEC_ID__
+    created: 1792055546848
+    modified: 1792055546848
 testSuites:
   - name: New Suite
     meta:
