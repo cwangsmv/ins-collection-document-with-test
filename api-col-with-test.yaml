@@ -8,11 +8,11 @@ meta:
   description: ""
 collection:
   - url: https://httpbin.io/get1
-    name: ngit
+    name: nreq
     meta:
       id: req_5daaeab0c63a41ecadac21dd731a8970
       created: 1789718537979
-      modified: 1795079862337
+      modified: 1795080843962
       isPrivate: false
       description: ""
       sortKey: -1789718537979
