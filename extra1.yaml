@@ -1,5 +1,5 @@
 extends:
-  - temp:oas
+  - unknown:oas
 rules:
   operation-summary:
     description: Every operation must have a summary
