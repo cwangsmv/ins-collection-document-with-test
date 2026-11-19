@@ -1,4 +1,4 @@
-type: collection.insomnia.rest/5.0
+type: ncollection.insomnia.rest/5.0
 schema_version: "5.1"
 name: My API Collection 3
 meta:
