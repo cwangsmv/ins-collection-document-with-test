@@ -1,5 +1,5 @@
 extends:
-  - not::oas
+  - 1::oas
 rules:
   operation-summary:
     description: Every operation must have a summary
