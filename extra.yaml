@@ -1,5 +1,5 @@
 extends:
-  - 1::oas
+  - from:git:oas
 rules:
   operation-summary:
     description: Every operation must have a summary
