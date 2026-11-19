@@ -1,9 +1,9 @@
 extends:
-  - spectral:oas:123
+  - temp:oas
 rules:
   operation-summary:
     description: Every operation must have a summary
-    severity1: error
+    severity: error
     given: $.paths[*][get,post,put,patch,delete]
     then:
       field: summary
