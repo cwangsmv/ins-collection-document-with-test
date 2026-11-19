@@ -8,7 +8,7 @@ meta:
   description: ""
 collection:
   - url: https://httpbin.io/get1
-    name: New Request
+    name: n333
     meta:
       id: req_5daaeab0c63a41ecadac21dd731a8970
       created: 1789718537979
