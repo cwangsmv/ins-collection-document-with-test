@@ -1,0 +1,23 @@
+type: mcpClient.insomnia/5.0
+schema_version: "5.1"
+name: My MCP Client 3
+meta:
+  id: wrk_531a0f5455c34cceb5e0d280b42563e2
+  created: 1795082258393
+  modified: 1795082258393
+  description: ""
+mcpRequest:
+  name: ""
+  url: ""
+  transportType: streamable-http
+  meta:
+    id: mcp-req_1a6b1b229ad84b7f8a95e57a290bb8ea
+    created: 1795082258395
+    modified: 1795082258395
+environments:
+  name: Base Environment
+  meta:
+    id: env_d25d8b63ec0193fdaf9c86aa43a5c868233f8e47
+    created: 1795082258397
+    modified: 1795082258397
+    isPrivate: false
